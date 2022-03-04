@@ -58,8 +58,10 @@ img {
   margin-bottom: 2rem;
 }
 
-.count {
+.color {
   font-size: 4rem;
+  border: 1px solid white;
+  padding: 5px 5px 0px 5px;
 }
 
 .buttons button {
@@ -73,13 +75,8 @@ img {
   border-radius: 3px;
   cursor: pointer;
 }
-button.subtract{
-  background-color: orangered;
-}
-button.reset {
+
+button.generate {
   background-color: var(--white);
   color: var(--black);
-}
-button.add {
-  background-color: green;
 }
